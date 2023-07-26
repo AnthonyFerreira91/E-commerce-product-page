@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 Projet-Info
+Consigne.md
 dist
 dist-ssr
 *.local
