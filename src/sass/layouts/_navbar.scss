@@ -1,0 +1,36 @@
+nav {
+	// background: blue;
+	display: flex;
+	align-items: center;
+
+	ul {
+		display: flex;
+		gap: 3.3rem;
+		list-style: none;
+	}
+
+	img[alt=logo] {
+		margin-right: 5.65rem;
+	}
+
+	img[alt=cart] {
+		width: 2.182rem;
+		height: 2rem;
+		margin-right: 4.618rem;
+	}
+
+	img[alt=avatar] {
+		width: 5rem;
+		height: 5rem;
+	}
+}
+
+nav:nth-child(2) {
+	align-self: flex-end;
+	background: red;
+}
+
+.navUser {
+	display: flex;
+	align-items: center;
+}

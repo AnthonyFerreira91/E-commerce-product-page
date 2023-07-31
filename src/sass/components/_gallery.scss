@@ -1,0 +1,22 @@
+.gallery {
+	width: 44.5rem;
+
+	> img {
+		margin-bottom: 3.2rem;
+		width: 100%;
+		aspect-ratio: 1 / 1;
+		border: none;
+		border-radius: 15px;
+	}
+
+	div {
+		display: flex;
+		justify-content: space-between;
+
+		img {
+			width: 8.8rem;
+			aspect-ratio: 1 / 1;
+			border-radius: 10px;
+		}
+	}
+}

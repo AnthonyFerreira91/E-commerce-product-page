@@ -1,0 +1,20 @@
+.counter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: hsl(223, 64%, 98%);
+	width: 15.7rem;
+	height: 5.6rem;
+	padding: 0 1.6rem;
+	font-weight: $WeightBold;
+	border-radius: 10px;
+
+	button {
+		cursor: pointer;
+		background: none;
+		border: none;
+		color: $Orange;
+		font-size: 2.3rem;
+		font-weight: $WeightBold;
+	}
+}
